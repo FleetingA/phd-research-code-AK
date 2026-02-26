@@ -1,4 +1,4 @@
-### Slicing UKB Data for UKB PheWAS PhD Project 
+#### Slicing UKB Data for UKB PheWAS PhD Project 
 
 ### Author: Angelina Kancheva 
 
@@ -30,10 +30,13 @@ save "PATH_TO_OUTPUT/Angelina/01sept23.dta", replace
 
 export delimited using "PATH_TO_OUTPUT/Angelina_01sept23.csv", delimiter(tab) replace
 
-#### Slicing the UKB data in Stata - New variables added as of 22/01/2024:
+---
+
+#### Slicing the UKB data in Stata:
 
 use n_eid n_<variables_to_be_added_from_UKB_showcase> using PATH_TO_FILE
 save PATH_TO_FILE, replace
+
 
 
 
