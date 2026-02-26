@@ -1,7 +1,10 @@
-## STATA code to rename and transform original UKB data to make format compatible with PHESANT 
-                                        **Date**: 21st July 2023
-                                        **Author**: Angelina Kancheva
-                                        === 
+
+# STATA code to rename and transform original UKB data to make compatible with PHESANT 
+
+**Date:** July 2023  
+**Author:** Angelina Kancheva  
+
+---
                                 
 ### Get information about all vars and store them in a macro:
 
@@ -249,6 +252,7 @@ Prefer not to answer |         51        0.07        0.07
     Variable |        Obs        Mean    Std. dev.       Min        Max
 -------------+---------------------------------------------------------
          ICV |     46,398     1194629    115795.3   797554.5    1810530
+
 
 
 
