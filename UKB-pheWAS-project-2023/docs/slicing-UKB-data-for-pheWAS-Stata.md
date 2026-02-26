@@ -1,8 +1,8 @@
-### **\*\*\* Slicing UKB Data for First UKB PheWAS PhD Project \*\*\***
+### Slicing UKB Data for First UKB PheWAS PhD Project 
 
-### **\*\*\* Author: Angelina Kancheva \*\*\***
+### Author: Angelina Kancheva 
 
-### **\*\*\* Date: 1st sept 2023 \*\*\***
+### Date: 1st sept 2023 
 
 
 
@@ -545,6 +545,7 @@ n\_25781\_2\_0     long    %10.0g                Total volume of white matter hy
 &nbsp;                                               T2\_FLAIR images)
 
 n\_26410\_0\_0     double  %18.15f               Index of Multiple Deprivation (England)
+
 
 
 
