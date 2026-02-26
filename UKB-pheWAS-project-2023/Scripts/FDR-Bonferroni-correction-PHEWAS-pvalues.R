@@ -1,7 +1,7 @@
 
 --------------------------------------------------------------------------
 # PhD Project 2023: UKB PheWas cSVD Clinical Phenotypes Project
-  
+  https://github.com/FleetingA/phd-research-code-AK/tree/main/UKB-phewas-project
 # Author: Angelina Kancheva 
 # Date/period: December 2023
 --------------------------------------------------------------------------
@@ -26,4 +26,5 @@ adj_values <- p.adjust(unc_pvalues, method="fdr")
 
 adj_rounded_values <- round(adj_values, 4)
 print(adj_rounded_values)
+
 
