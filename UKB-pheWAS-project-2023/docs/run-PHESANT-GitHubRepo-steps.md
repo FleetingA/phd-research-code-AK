@@ -1,6 +1,9 @@
-Steps to prepare my device for running PheWas with PHESANT
-July 2023
-Author: Angelina Kancheva
+#Steps to prepare my device for running PheWas with PHESANT
+
+**July 2023**
+
+**Author:** Angelina Kancheva
+
 ---
 
 Since I am a Windows user:
@@ -154,4 +157,5 @@ Notes/Reminders
 1. Check participant withdrawal notification emails > make sure to exclude people who have withdrawn from UKB >> we no longer have their consent!
 2. Make sure you create your own confounder file and add a --confounderfile argument to the main phenome scan script.
 3. Re-run the code with a significantly smaller subset of phenotypes to make sure you understand what you are looking at!
+
 
