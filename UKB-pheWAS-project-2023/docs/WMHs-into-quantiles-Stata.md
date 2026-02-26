@@ -38,52 +38,24 @@ browse x25781_2_0dec
 
 . replace  x25781_2_0dec = 0 if x25781_2_0dec == 1
 
-(4,504 real changes made)
-
-
 . replace x25781_2_0dec = 0 if x25781_2_0dec == 2
 
-(4,503 real changes made)
+. replace x25781_2_0dec = 0 if x25781_2_0dec == 3
 
+. replace x25781_2_0dec = 0 if x25781_2_0dec == 4
 
-.  replace x25781_2_0dec = 0 if x25781_2_0dec == 3
+. replace x25781_2_0dec = 0 if x25781_2_0dec == 5
 
-(4,501 real changes made)
+. replace x25781_2_0dec = 0 if x25781_2_0dec == 6
 
+. replace x25781_2_0dec = 0 if x25781_2_0dec == 7
 
-.  replace x25781_2_0dec = 0 if x25781_2_0dec == 4
+. replace x25781_2_0dec = 1 if x25781_2_0dec == 10
 
-(4,505 real changes made)
+. replace x25781_2_0dec = 0 if x25781_2_0dec == 8
 
+. replace x25781_2_0dec = 0 if x25781_2_0dec == 9
 
-.  replace x25781_2_0dec = 0 if x25781_2_0dec == 5
-
-(4,499 real changes made)
-
-
-.  replace x25781_2_0dec = 0 if x25781_2_0dec == 6
-
-(4,501 real changes made)
-
-
-.  replace x25781_2_0dec = 0 if x25781_2_0dec == 7
-
-(4,500 real changes made)
-
-
-.  replace x25781_2_0dec = 1 if x25781_2_0dec == 10
-
-(4,501 real changes made)
-
-
-.  replace x25781_2_0dec = 0 if x25781_2_0dec == 8
-
-(4,499 real changes made)
-
-
-.  replace x25781_2_0dec = 0 if x25781_2_0dec == 9
-
-(4,500 real changes made)
 
 
 . tab x25781_2_0dec
@@ -94,7 +66,7 @@ browse x25781_2_0dec
 export delimited using "PATH_TO_FILE/filename.csv", replace
 
 
-##### OLD WMH VARIABLE - RESULTS FROM JULY 2023
+#### OLD WMH VARIABLE - RESULTS FROM JULY 2023
 
 #### Dividing the WMH variable into ten quantiles and inspecting the results:
 
@@ -138,6 +110,7 @@ export delimited using "PATH_TO_FILE/filename.csv", replace
 
 
 . rename UKB_WMHs2 x25781_new
+
 
 
 
