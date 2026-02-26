@@ -5,7 +5,7 @@
 ### Author: Angelina Kancheva 
 ---
 
-1. Data Field 20116 - Smoking Status
+* Data Field 20116 - Smoking Status
 
 Coding 90:
 
@@ -20,9 +20,7 @@ Coding 90:
 
 2 --> 1 = 2377; 1 --> 0 = 26236; 0 --> 0 = 69619
 
-
-
-2. Data Field 20117 - Alcohol Drinker Status
+* Data Field 20117 - Alcohol Drinker Status
 
 Was:
 
@@ -38,8 +36,7 @@ Changed to:
 
 4958 64885
 
-
-3. Data Field 20126 - Bipolar and Major Depression Status
+* Data Field 20126 - Bipolar and Major Depression Status
 
 
 Was:
@@ -72,15 +69,13 @@ Is:
 
 89499  1615 31823
 
-
-4. Data Field 20165 - FI1 : numeric addition test
+* Data Field 20165 - FI1 : numeric addition test
 
 Recode to make binary:
 
 20165,0,,15=1|13=0|14=0|16=0|17=0,,
 
-
-5. Data Field 5699 - FI10 : arithmetic sequence recognition
+* Data Field 5699 - FI10 : arithmetic sequence recognition
 
 Recode to make binary:
 
@@ -103,8 +98,7 @@ Is:
 
 159  1338  2790 11521
 
-
-6. Data Field 5779 - FI11 : antonym
+* Data Field 5779 - FI11 : antonym
 
 
 Recode to make binary:
@@ -129,8 +123,7 @@ Is:
 2310 5973
 
 
-
-7. Data Field 20167 - FI2 : identify largest number
+* Data Field 20167 - FI2 : identify largest number
 
 
 Recode to make binary:
@@ -153,9 +146,7 @@ Is:
 
 1072 122071
 
-
-
-8. Data Field 20169 - FI3 : word interpolation
+* Data Field 20169 - FI3 : word interpolation
 
 
 Recode to make binary:
@@ -179,8 +170,7 @@ Is:
 
 20773 102336
 
-
-9. Data Field 20171 - FI4 : positional arithmetic
+* Data Field 20171 - FI4 : positional arithmetic
 
 
 Recode to make binary:
@@ -205,8 +195,7 @@ Is:
 13892 108577
 
 
-
-10. Data Field 20177 - FI7 : synonym
+* Data Field 20177 - FI7 : synonym
 
 
 Recode to make binary:
@@ -228,8 +217,7 @@ Is:
 5913 81480
 
 
-
-11. Data Field 20179 - FI8 : chained arithmetic
+* Data Field 20179 - FI8 : chained arithmetic
 
 
 Recode to make binary:
@@ -245,8 +233,7 @@ Was:
 
 9132 60174  4582  2234  3373
 
-
-12. Data Field 20181 - FI9 : concept interpolation
+* Data Field 20181 - FI9 : concept interpolation
 
 
 Recode to make binary:
@@ -255,7 +242,7 @@ Recode to make binary:
 20181,0,,4=1|1=0|2=0|3=0|5=0,,
 
 
-13. Data Field 20183 - FI10 : arithmetic sequence recognition
+* Data Field 20183 - FI10 : arithmetic sequence recognition
 
 
 Same as Data Field 5699.
@@ -266,20 +253,18 @@ Same as Data Field 5699.
 
 Same as 20165.
 
-
-15. Data Field 4946 - FI2 : identify largest number
+* Data Field 4946 - FI2 : identify largest number
 
 
 Same as 20167.
 
 
-16. Data Field 4968 - FI4 : positional arithmetic
+* Data Field 4968 - FI4 : positional arithmetic
 
 
 Same as 20171 but removing the category 9.
 
-
-17. Data Field 4990 - FI6 : conditional arithmetic
+* Data Field 4990 - FI6 : conditional arithmetic
 
 
 Recode to make binary:
@@ -287,8 +272,7 @@ Recode to make binary:
 
 4990,0,,70=1|68=0|69=0|71=0|72=0,,
 
-
-18. Data Field 5556 - FI7 : synonym
+* Data Field 5556 - FI7 : synonym
 
 
 Recode to make binary:
@@ -296,8 +280,7 @@ Recode to make binary:
 
 5556,0,,4=1|3=0|2=0|1=0|5=0|-1=NA|-3=NA,,
 
-
-19. Data Field 1200 - Sleeplessness / insomnia
+* Data Field 1200 - Sleeplessness / insomnia
 
 
 Recode to make binary:
@@ -313,8 +296,7 @@ Was:
 
  61 14825 31863 23124
 
-
-20. Data Field 1220 - Daytime dozing / sleeping
+* Data Field 1220 - Daytime dozing / sleeping
 
 Coding	Meaning
 
@@ -344,8 +326,7 @@ Make:
 
 1220,0,,1=0|0=0|3=1|2=1,,
 
-
-21. Data Field 1239 - Current tobacco smoking
+* Data Field 1239 - Current tobacco smoking
 
 
 Recode to make binary:
@@ -361,8 +342,7 @@ Was:
 
 13 67483  1426   951
 
-
-22. Data Field 1558 - Alcohol intake frequency
+* Data Field 1558 - Alcohol intake frequency
 
 
 Recode to make into three categories:
@@ -377,5 +357,6 @@ Was:
 3     1     2     3     4     5     6
 
 26 11772 19199 18445  8081  7388  4962
+
 
 
