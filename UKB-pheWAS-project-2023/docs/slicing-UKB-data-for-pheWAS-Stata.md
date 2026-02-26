@@ -1,4 +1,4 @@
-## Slicing UKB Data for First UKB PheWAS PhD Project 
+### Slicing UKB Data for UKB PheWAS PhD Project 
 
 ### Author: Angelina Kancheva 
 
@@ -34,6 +34,7 @@ export delimited using "PATH_TO_OUTPUT/Angelina_01sept23.csv", delimiter(tab) re
 
 use n_eid n_<variables_to_be_added_from_UKB_showcase> using PATH_TO_FILE
 save PATH_TO_FILE, replace
+
 
 
 
