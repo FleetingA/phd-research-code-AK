@@ -1,12 +1,9 @@
-**\*\*\*\*\* Steps to prepare my device for running PheWas with PHESANT \*\*\*\*\*
-\*\*\* July 2023 \*\*\*
-\*\*\* Author: Angelina Kancheva \*\*\***
+Steps to prepare my device for running PheWas with PHESANT
+July 2023
+Author: Angelina Kancheva
 ---
 
-
-
 Since I am a Windows user:
-
 
 
 1. Install Git Bash (to be able to run Linux-like commands).
@@ -14,7 +11,8 @@ Since I am a Windows user:
 
 On this device, PHESANT-master is located in C:\\Users\\angel\\Documents\\PHESANT-master\\PHESANT-master.
 
-\*\* UKB Data Dictionary Steps that PHESANT carries out under the hood \*\*
+UKB Data Dictionary Steps that PHESANT carries out under the hood
+---
 
 1. To obtain the latest version of the UKB Data Dictionary file: wget http://biobank.ctsu.ox.ac.uk/%7Ebbdatan/Data\_Dictionary\_Showcase.csv.
 2. To convert the resulting data showcase file from csv to tsv: cat Data\_Dictionary\_Showcase.csv | sed 's/,/\\t/g' | tr -d '\\r' > Data\_Dictionary\_Showcase.tsv.
@@ -26,13 +24,7 @@ On this device, PHESANT-master is located in C:\\Users\\angel\\Documents\\PHESAN
 6. Script to run PheWas with current folder structure in PHESANT-master-fork2 (this is the only script that needs to be modified code-wise; the rest is being executed in the background):
 
 
-
-
-
 **Part 1:**
-
-
-
 cd ../WAS/
 
 Rscript phenomeScan.r   
@@ -45,9 +37,6 @@ Rscript phenomeScan.r
 --resDir="../MyWas/results200923/"   
 --userId="userId"   
 --genetic FALSE
-
-
-
 
 
 Updated as of 23/01/2024 with renewed dataset:
@@ -64,9 +53,6 @@ Rscript phenomeScan.r
 --genetic FALSE
 
 
-
-
-
 Updated as of 23/02/2025 with WMH volume change scores:
 
 Rscript phenomeScan.r   
@@ -81,12 +67,8 @@ Rscript phenomeScan.r
 --genetic=FALSE
 
 
-
-
-
-###### **Second UKB Study: WMH Volume Change + Clinical Phenotyping Project - Different Analysis Approach:**
-
-
+Second UKB Study: WMH Volume Change + Clinical Phenotyping Project - Different Analysis Approach:
+---
 
 Updated as of 02/09/2025 with the SAVE option:
 
@@ -103,7 +85,6 @@ Rscript phenomeScan.r
 phenotypes in total: 230
 
 
-
 DIAGNOSTICS:
 
 Rscript phenomeScan.r   
@@ -115,10 +96,6 @@ Rscript phenomeScan.r
 --resDir="../MyWas/results/"   
 --userId="userId"   
 --genetic FALSE
-
-
-
-
 
 TEST:
 
@@ -134,9 +111,6 @@ Rscript phenomeScan.r
 --userId="userId" \\
 
 
-
-
-
 Part 2:
 
 cd ../resultsProcessing/
@@ -144,10 +118,6 @@ cd ../resultsProcessing/
 Rscript mainCombineResults.r   
 --resDir="../MyWas/results\_RAW\_SCORES\_fully\_adj\_250425/"   
 --variablelistfile="../variable-info/outcome-info.tsv"
-
-
-
-
 
 Part 3:
 
@@ -160,11 +130,10 @@ python -m http.server
 localhost:8000
 
 
-
 Note that some fields are defined as related fields in the data-coding-ordinal-info file, which means they are made use of when processing other variables. If there are variables in the phenotype dataset (i.e., phenofile) with a data code that has a specific field as a required field, but these are not found, the code will throw an error. Example:
 
-\[1] "Required variable: Field  x20082\_0\_0 is a data code related field (default\_related\_field column in data code information file) but was not found in phenotype data"
-\[1] "!!! PHESANT has stopped - add required variables to phenotype file or remove relevant phenotypes (so that required variables are not needed)."
+[1] "Required variable: Field  x20082\_0\_0 is a data code related field (default\_related\_field column in data code information file) but was not found in phenotype data"
+[1] "!!! PHESANT has stopped - add required variables to phenotype file or remove relevant phenotypes (so that required variables are not needed)."
 
 The variables that are causing an issue in light of the above error are:
 
@@ -179,10 +148,10 @@ The variables that are causing an issue in light of the above error are:
 * Potassium > field ID 100016;
 * Magnesium > field ID 100017;
 
-\*\* Notes/Reminders \*\*
-
-
+Notes/Reminders
+-
 
 1. Check participant withdrawal notification emails > make sure to exclude people who have withdrawn from UKB >> we no longer have their consent!
 2. Make sure you create your own confounder file and add a --confounderfile argument to the main phenome scan script.
 3. Re-run the code with a significantly smaller subset of phenotypes to make sure you understand what you are looking at!
+
