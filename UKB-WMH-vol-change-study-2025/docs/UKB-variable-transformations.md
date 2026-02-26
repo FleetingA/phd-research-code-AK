@@ -3,7 +3,7 @@
 ### Date: 10/04/2025 
 
 ### Author: Angelina Kancheva 
-====
+---
 
 1. Data Field 20116 - Smoking Status
 
@@ -377,4 +377,5 @@ Was:
 3     1     2     3     4     5     6
 
 26 11772 19199 18445  8081  7388  4962
+
 
