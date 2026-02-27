@@ -1,8 +1,43 @@
-Scripts and documentation used for the completion of the Bio-Hermes study exploring cardiovascular risk as a potential moderator of the relationship between Alzheimer's Disease-related blood plasma biomarkers and cognitive status. As part of this project, different companies and entities provided biomarker data. 
+**Bio-Hermes Study Analysis Repository** 
+---
+
+This folder contains scripts and supporting documentation for analyses conducted as part of the Bio-Hermes study, which investigated cardiovascular risk as a potential moderator of the association between Alzheimer's Disease (AD)–related blood plasma biomarkers and cognitive status.
+
+#### Project Overview
+
+The primary objective of this analysis was to examine whether cardiovascular risk modifies the relationship between AD plasma biomarkers and cognitive status.
+
+Biomarker data were provided by multiple collaborating companies and research entities. Company names are retained within scripts and variable naming conventions to maintain traceability to source datasets.
+
+#### Contents
+
+##### Data processing scripts
+
+##### Statistical modelling scripts (e.g., multinomial regression analyses)
+
+#### Software Requirements
+
+Analyses were conducted in R.
+
+Key packages include:
+
+- dplyr
+- psych
+- ggplot2
+- RiskScorescvd
+- car
+- pscl
+- DescTools
+- sjstats
+- pROC
+- caret
+- lmtest
+- lmtest
 
 
+Data Availability
 
-The names of these companies have been used throughout the files. 
+Raw biomarker data are not included in this repository due to data sharing restrictions. Scripts assume access to the approved Bio-Hermes dataset.
 
 
 
