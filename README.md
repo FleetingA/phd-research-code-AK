@@ -5,16 +5,16 @@ This repository contains scripts and documentation used for the analyses include
 ## Included Projects
 
 1. **UK Biobank PheWAS (PHESANT-based)**  
-   A phenome-wide association study exploring clinical phenotypes associated with white matter hyperintensities in 45,013 participants.
+   A phenome-wide association study exploring clinical phenotypes associated with white matter hyperintensities in 45,013 UKB participants.
 
 2. **UK Biobank WMH Volume Change Study**  
-   A study investigating baseline phenotypes associated with white matter hyperintensity volume change in 4329 participants.
+   A study investigating baseline phenotypes associated with white matter hyperintensity volume change in 4329 UKB participants.
 
 3. **Lothian Birth Cohort 1936 Study**  
-   An analysis examining associations between white matter hyperintensity volume and clinical phenotypes using a structural equation modelling framework.
+   An analysis examining associations between white matter hyperintensity volume and clinical phenotypes in the LBC1936 using a structural equation modelling framework.
 
 4. **Bio-Hermes Project**  
-   An investigation of cardiovascular risk as a potential moderator of the relationship between Alzheimer’s disease-associated blood plasma biomarkers and cognitive status.
+   A study exploring cardiovascular risk as a potential moderator of the relationship between Alzheimer’s disease-associated blood plasma biomarkers and cognitive status.
 
 ## Data Availability
 
