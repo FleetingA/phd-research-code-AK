@@ -15,8 +15,6 @@ Biomarker data were provided by multiple collaborating companies and research en
 
 - Statistical modelling scripts (e.g., multinomial regression analyses)
 
-- Software Requirements
-
 Analyses were conducted in R (several versions, as required).
 
 Key packages include:
