@@ -11,13 +11,13 @@ Biomarker data were provided by multiple collaborating companies and research en
 
 #### Contents
 
-##### Data processing scripts
+- Data processing scripts
 
-##### Statistical modelling scripts (e.g., multinomial regression analyses)
+- Statistical modelling scripts (e.g., multinomial regression analyses)
 
-#### Software Requirements
+- Software Requirements
 
-Analyses were conducted in R.
+Analyses were conducted in R (several versions, as required).
 
 Key packages include:
 
@@ -34,8 +34,9 @@ Key packages include:
 - lmtest
 - lmtest
 
+#### Data Availability
 
-Data Availability
+Raw biomarker data are not included in this repository due to data sharing restrictions. Scripts assume access to the approved Bio-Hermes dataset.
 
 Raw biomarker data are not included in this repository due to data sharing restrictions. Scripts assume access to the approved Bio-Hermes dataset.
 
