@@ -36,10 +36,9 @@ Key packages include:
 
 #### Data Availability
 
-Raw biomarker data are not included in this repository due to data sharing restrictions. Scripts assume access to the approved Bio-Hermes dataset.
+Raw biomarker data are not included in this repository due to data sharing restrictions. Scripts assume access to the Bio-Hermes dataset.
 
-Raw biomarker data are not included in this repository due to data sharing restrictions. Scripts assume access to the approved Bio-Hermes dataset.
-
+Variable names reflect the original (“native”) naming conventions used in the source datasets. Users adapting these scripts to other datasets will need to modify variable names accordingly.
 
 
 
