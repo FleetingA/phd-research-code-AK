@@ -1,4 +1,4 @@
-**UK Biobank Association Study of Baseline Phenotypes Associated with WMH Volume Change Analysis Repository** 
+**UK Biobank Association Study of Baseline Phenotypes with WMH Volume Change Analysis Repository** 
 ---
 
 This folder contains scripts and supporting documentation for analyses conducted as part of a UKB study, which explored associations between baseline phenotypes and white matter hyperintensity volume change.
