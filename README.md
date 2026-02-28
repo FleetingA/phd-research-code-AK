@@ -1,7 +1,6 @@
 # PhD Research Code (2022–2026)
 
 This repository contains scripts and documentation used for the analyses included in my PhD thesis (2022–2026).
----
 
 ## Included Projects
 
