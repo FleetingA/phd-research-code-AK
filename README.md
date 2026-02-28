@@ -16,10 +16,12 @@ This repository contains scripts and documentation used for the analyses include
 4. **Bio-Hermes Project**  
    A study exploring cardiovascular risk as a potential moderator of the relationship between Alzheimer’s disease-associated blood plasma biomarkers and cognitive status.
 
+Separate README.md have been provided within individual folders.
+
 ## Requirements
 #### R Version
 
-This code was developed and run using R version 4.2.x – 4.3.x
+This code was developed and run using R versions 4.2.x – 4.3.x
 (Tested on R 4.3.1; earlier 4.x versions should also work.)
 
 It is recommended to use a recent R 4.x release.
