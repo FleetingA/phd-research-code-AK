@@ -1,6 +1,7 @@
 # PhD Research Code (2022–2026)
 
 This repository contains scripts and documentation used for the analyses included in my PhD thesis (2022–2026).
+---
 
 ## Included Projects
 
@@ -15,6 +16,55 @@ This repository contains scripts and documentation used for the analyses include
 
 4. **Bio-Hermes Project**  
    A study exploring cardiovascular risk as a potential moderator of the relationship between Alzheimer’s disease-associated blood plasma biomarkers and cognitive status.
+
+## Requirements
+#### R Version
+
+This code was developed and run using R version 4.2.x – 4.3.x
+(Tested on R 4.3.1; earlier 4.x versions should also work.)
+
+It is recommended to use a recent R 4.x release.
+
+## Core Packages
+
+The following R packages are required for most analyses in this repository:
+
+- tidyverse (data wrangling and visualisation)
+
+- data.table (efficient data manipulation)
+
+- haven (importing SPSS/Stata files)
+
+- readr (data import)
+
+- ggplot2 (visualisation)
+
+- dplyr (data manipulation)
+
+- tidyr (data reshaping)
+
+## Statistical/Modelling Packages
+
+Some projects additionally require:
+
+- lavaan (structural equation modelling)
+
+- car (regression diagnostics)
+
+- psych (psychometrics and descriptive statistics)
+
+## Installing Required Packages
+
+You can install the main packages using:
+
+```r
+install.packages(c(
+  "tidyverse", "data.table", "haven", "readr",
+  "lavaan", "lme4", "nlme", "survival",
+  "glmnet", "car", "psych", "here",
+  "janitor", "broom", "knitr", "rmarkdown"
+))
+```
 
 ## Data Availability
 
