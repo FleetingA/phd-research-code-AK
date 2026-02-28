@@ -16,7 +16,7 @@ This repository contains scripts and documentation used for the analyses include
 4. **Bio-Hermes Project**  
    A study exploring cardiovascular risk as a potential moderator of the relationship between Alzheimer’s disease-associated blood plasma biomarkers and cognitive status.
 
-Separate README.md have been provided within individual folders.
+Each project folder contains its own README.md with project-specific details and instructions.
 
 ## Requirements
 #### R Version
