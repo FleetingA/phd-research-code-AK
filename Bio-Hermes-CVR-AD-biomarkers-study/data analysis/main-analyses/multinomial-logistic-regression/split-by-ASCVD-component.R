@@ -6,6 +6,12 @@
 # Date: 30/01/2025
 ----------------------------------------------------------------------------------
 
+# Load libraries
+library(readr)
+library(psych)
+library(ggplot2)
+library(dplyr)
+
 ### Separate models for individual ASCVD risk factors for each biomarker
 
 # AB42/40
