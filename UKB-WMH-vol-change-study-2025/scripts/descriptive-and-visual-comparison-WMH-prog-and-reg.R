@@ -11,8 +11,26 @@
 # Load packages and data
 library(readr)
 library(dplyr)
+library(psych)
 phenotypes_260325 <- read_csv("C:/Users/angel/Desktop/PHEWAS_PhD_Project_2023/291123_PheWas_Paper_Results/MyWas/data25032025/phenotypes_260325.csv")
 View(phenotypes_260325)
+
+# Read in final dataset
+df <- read.delim("C:/Users/angel/Desktop/PRECISION_MEDICINE/PHESANT_050925_UKBWMH-study/PHESANT-master/MyWas/data02092025/New Files to work with/merged_extended_final.tsv",
+                 header = TRUE,
+                 sep = "\t")
+View(df)
+
+## Summarise data on progressors and regressors initially
+# Prog
+describe(df$x25781_2_0)
+IQR(df$x25781_2_0)
+quantile(df$x25781_2_0, probs = c(0.25, 0.75))
+
+# Reg
+describe(df$x25781_3_0)
+IQR(df$x25781_3_0)
+quantile(df$x25781_3_0, probs = c(0.25, 0.75))
 
 # Progressors
 tofi_progressors_only_no_outliers <- read_csv("C:/Users/angel/Desktop/PHESANT-master/PHESANT-master/MyWas/data16042025/tofi_progressors_only_no_outliers.csv")
